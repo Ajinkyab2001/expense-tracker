@@ -1,5 +1,5 @@
 document.getElementById("myForm").addEventListener("submit", function(event){
-  event.preventDefault();
+    event.preventDefault();
   
   const expenseAmount = document.getElementById("expense-amt").value;
   const expenseDescription = document.getElementById("expense-des").value;
@@ -45,6 +45,7 @@ document.getElementById("myForm").addEventListener("submit", function(event){
                   document.getElementById("expense-amt").value = user.expenseAmount;
                   document.getElementById("expense-des").value = user.expenseDescription;
                   document.getElementById("expense-cat").value = user.expenseCategory;
+                  
   
               })
   
